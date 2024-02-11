@@ -35,6 +35,7 @@
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
+    border: 3px solid white;
 }
 
 .worksBtn {

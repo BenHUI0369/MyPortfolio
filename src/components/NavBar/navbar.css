@@ -85,6 +85,15 @@
     background: rgb(30, 30, 30);
 }
 
+a:visited 
+{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
 @media screen and (max-width:720px) {
     .mobMenu {
         display: flex;

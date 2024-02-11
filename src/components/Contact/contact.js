@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import clientImg1 from '../../assets/walmart.png';
+import clientImg1 from '../../assets/clients/oxclub_logo.png';
 import clientImg2 from '../../assets/adobe.png';
 import clientImg3 from '../../assets/microsoft.png';
 import clientImg4 from '../../assets/facebook.png';
+import LinkedInIcon from '../../assets/logo-linkedin.png';
+import GitHubIcon from '../../assets/logo-github.png';
 import FBIcon from '../../assets/facebook-icon.png';
 import TWIcon from '../../assets/twitter.png';
 import YTIcon from '../../assets/youtube.png';
@@ -40,9 +42,6 @@ export const Contact = () => {
             </p>
             <div className="clientImgs">
                 <img src={clientImg1} alt="Client" className="clientImg" />
-                <img src={clientImg2} alt="Client" className="clientImg" />
-                <img src={clientImg3} alt="Client" className="clientImg" />
-                <img src={clientImg4} alt="Client" className="clientImg" />
             </div>
         </div>
         <div id="contact">
@@ -54,10 +53,8 @@ export const Contact = () => {
                 <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                 <button type="submit" value="Send" className="submitBtn">Submit</button>
                 <div className="links">
-                    <img src={FBIcon} alt="Facebook" className="link" />
-                    <img src={TWIcon} alt="X" className="link" />
-                    <img src={YTIcon} alt="Youtube" className="link" />
-                    <img src={IGIcon} alt="Instagram" className="link" />
+                  <a href="https://www.linkedin.com/in/benhui-ca/" target="_blank"><img src={LinkedInIcon} alt="LinkedIn" className="link" /></a>
+                  <a href="https://github.com/BenHUI0369" target="_blank"><img src={GitHubIcon} alt="GitHub" className="link" /></a>
                 </div>
             </form>
         </div>
